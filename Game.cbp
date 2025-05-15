@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Game" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Game" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Game" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="AudioManager.cpp" />
+		<Unit filename="BigEnemy.cpp" />
+		<Unit filename="Enemy.cpp" />
+		<Unit filename="Entity.cpp" />
+		<Unit filename="Flare.cpp" />
+		<Unit filename="Game.cpp" />
+		<Unit filename="MediumEnemy.cpp" />
+		<Unit filename="Missile.cpp" />
+		<Unit filename="ObjectSpawner.cpp" />
+		<Unit filename="Player.cpp" />
+		<Unit filename="Projectile.cpp" />
+		<Unit filename="RenderWindow.cpp" />
+		<Unit filename="SmallEnemy.cpp" />
+		<Unit filename="Texture.cpp" />
+		<Unit filename="Timer.cpp" />
+		<Unit filename="UIManager.cpp" />
+		<Unit filename="lib/AudioManager.h" />
+		<Unit filename="lib/BigEnemy.h" />
+		<Unit filename="lib/Collision.h" />
+		<Unit filename="lib/Enemy.h" />
+		<Unit filename="lib/Entity.h" />
+		<Unit filename="lib/Flare.h" />
+		<Unit filename="lib/Game.h" />
+		<Unit filename="lib/Mathf.h" />
+		<Unit filename="lib/MediumEnemy.h" />
+		<Unit filename="lib/Missile.h" />
+		<Unit filename="lib/ObjectSpawner.h" />
+		<Unit filename="lib/Player.h" />
+		<Unit filename="lib/Projectile.h" />
+		<Unit filename="lib/RenderWindow.h" />
+		<Unit filename="lib/SmallEnemy.h" />
+		<Unit filename="lib/Texture.h" />
+		<Unit filename="lib/Timer.h" />
+		<Unit filename="lib/UIManager.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

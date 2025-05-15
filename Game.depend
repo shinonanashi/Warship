@@ -1,0 +1,296 @@
+# depslib dependency file v1.0
+1747270067 source:e:\ltnc\game\audiomanager.cpp
+	"lib/AudioManager.h"
+	<iostream>
+
+1747232955 e:\ltnc\game\audiomanager.h
+	<SDL_mixer.h>
+
+1747270067 source:e:\ltnc\game\timer.cpp
+	"lib/Timer.h"
+
+1747232955 e:\ltnc\game\timer.h
+	<SDL.h>
+
+1747270067 source:e:\ltnc\game\bigenemy.cpp
+	"lib/BigEnemy.h"
+	"lib/UIManager.h"
+
+1747232955 e:\ltnc\game\bigenemy.h
+	<vector>
+	"RenderWindow.h"
+	"Entity.h"
+	"Projectile.h"
+	"Missile.h"
+	"Enemy.h"
+	"Texture.h"
+	"Timer.h"
+
+1747232955 e:\ltnc\game\renderwindow.h
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	"Entity.h"
+
+1747232955 e:\ltnc\game\entity.h
+	<SDL.h>
+	<SDL_image.h>
+	"Mathf.h"
+
+1747232955 e:\ltnc\game\mathf.h
+	<iostream>
+	<math.h>
+
+1747232955 e:\ltnc\game\projectile.h
+	"Entity.h"
+
+1747232955 e:\ltnc\game\missile.h
+	"Entity.h"
+
+1747232955 e:\ltnc\game\enemy.h
+	<vector>
+	"RenderWindow.h"
+	"Entity.h"
+	"Missile.h"
+	"Projectile.h"
+
+1747232955 e:\ltnc\game\texture.h
+	<iostream>
+	<vector>
+	"SDL_ttf.h"
+	"RenderWindow.h"
+	"Entity.h"
+	"Player.h"
+	"Projectile.h"
+
+1747232955 e:\ltnc\game\player.h
+	<vector>
+	"RenderWindow.h"
+	"Entity.h"
+	"Projectile.h"
+	"Missile.h"
+	"Timer.h"
+	"Flare.h"
+
+1747232955 e:\ltnc\game\flare.h
+	"Entity.h"
+
+1747232955 e:\ltnc\game\uimanager.h
+	"Texture.h"
+	"Timer.h"
+	"AudioManager.h"
+
+1747270067 source:e:\ltnc\game\entity.cpp
+	<SDL.h>
+	<SDL_image.h>
+	"lib/Entity.h"
+
+1747270182 source:e:\ltnc\game\flare.cpp
+	"lib/Flare.h"
+	"lib/AudioManager.h"
+
+1747268526 source:e:\ltnc\game\game.cpp
+	"lib/Game.h"
+	"lib/RenderWindow.h"
+	"lib/Collision.h"
+	"lib/AudioManager.h"
+
+1747232955 e:\ltnc\game\game.h
+	<SDL.h>
+	<SDL_image.h>
+	<iostream>
+	"Texture.h"
+	"RenderWindow.h"
+	"ObjectSpawner.h"
+	"UIManager.h"
+
+1747232955 e:\ltnc\game\objectspawner.h
+	<vector>
+	<iostream>
+	"Entity.h"
+	"RenderWindow.h"
+	"SmallEnemy.h"
+	"MediumEnemy.h"
+	"BigEnemy.h"
+	"Texture.h"
+	"Timer.h"
+
+1747232955 e:\ltnc\game\smallenemy.h
+	<vector>
+	"RenderWindow.h"
+	"Entity.h"
+	"Enemy.h"
+	"Projectile.h"
+
+1747232955 e:\ltnc\game\mediumenemy.h
+	<vector>
+	"RenderWindow.h"
+	"Entity.h"
+	"Projectile.h"
+	"Enemy.h"
+
+1747232955 e:\ltnc\game\collision.h
+	<SDL.h>
+	<SDL_image.h>
+
+1747270067 source:e:\ltnc\game\main.cpp
+	<SDL.h>
+	<SDL_image.h>
+	"lib/Entity.h"
+	"lib/Game.h"
+
+1747270067 source:e:\ltnc\game\mediumenemy.cpp
+	"lib/MediumEnemy.h"
+
+1747270067 source:e:\ltnc\game\missile.cpp
+	"lib/Missile.h"
+	"lib/AudioManager.h"
+
+1747270067 source:e:\ltnc\game\objectspawner.cpp
+	"lib/ObjectSpawner.h"
+	"lib/UIManager.h"
+
+1747270067 source:e:\ltnc\game\player.cpp
+	"lib/Player.h"
+	"lib/Texture.h"
+	"lib/ObjectSpawner.h"
+	"lib/UIManager.h"
+
+1747270067 source:e:\ltnc\game\projectile.cpp
+	"lib/Projectile.h"
+
+1747268526 source:e:\ltnc\game\renderwindow.cpp
+	<SDL.h>
+	<SDL_image.h>
+	<iostream>
+	"lib/RenderWindow.h"
+	"lib/Entity.h"
+
+1747270067 source:e:\ltnc\game\smallenemy.cpp
+	"lib/SmallEnemy.h"
+
+1747270067 source:e:\ltnc\game\texture.cpp
+	"lib/Texture.h"
+	"lib/UIManager.h"
+
+1747270067 source:e:\ltnc\game\uimanager.cpp
+	"lib/UIManager.h"
+	"lib/Collision.h"
+	"lib/ObjectSpawner.h"
+	<string>
+
+1747270067 source:e:\ltnc\game\enemy.cpp
+	"lib/Enemy.h"
+	"lib/Mathf.h"
+	"lib/ObjectSpawner.h"
+	"lib/UIManager.h"
+	<cstring>
+
+1747270067 e:\ltnc\game\lib\game.h
+	<SDL.h>
+	<SDL_image.h>
+	<iostream>
+	"Texture.h"
+	"RenderWindow.h"
+	"ObjectSpawner.h"
+	"UIManager.h"
+
+1747232955 e:\ltnc\game\lib\texture.h
+	<iostream>
+	<vector>
+	"SDL_ttf.h"
+	"RenderWindow.h"
+	"Entity.h"
+	"Player.h"
+	"Projectile.h"
+
+1747270067 e:\ltnc\game\lib\renderwindow.h
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	"Entity.h"
+
+1747232955 e:\ltnc\game\lib\entity.h
+	<SDL.h>
+	<SDL_image.h>
+	"Mathf.h"
+
+1747232955 e:\ltnc\game\lib\mathf.h
+	<iostream>
+	<math.h>
+
+1747232955 e:\ltnc\game\lib\player.h
+	<vector>
+	"RenderWindow.h"
+	"Entity.h"
+	"Projectile.h"
+	"Missile.h"
+	"Timer.h"
+	"Flare.h"
+
+1747232955 e:\ltnc\game\lib\projectile.h
+	"Entity.h"
+
+1747232955 e:\ltnc\game\lib\missile.h
+	"Entity.h"
+
+1747232955 e:\ltnc\game\lib\timer.h
+	<SDL.h>
+
+1747232955 e:\ltnc\game\lib\flare.h
+	"Entity.h"
+
+1747232955 e:\ltnc\game\lib\objectspawner.h
+	<vector>
+	<iostream>
+	"Entity.h"
+	"RenderWindow.h"
+	"SmallEnemy.h"
+	"MediumEnemy.h"
+	"BigEnemy.h"
+	"Texture.h"
+	"Timer.h"
+
+1747232955 e:\ltnc\game\lib\smallenemy.h
+	<vector>
+	"RenderWindow.h"
+	"Entity.h"
+	"Enemy.h"
+	"Projectile.h"
+
+1747232955 e:\ltnc\game\lib\enemy.h
+	<vector>
+	"RenderWindow.h"
+	"Entity.h"
+	"Missile.h"
+	"Projectile.h"
+
+1747232955 e:\ltnc\game\lib\mediumenemy.h
+	<vector>
+	"RenderWindow.h"
+	"Entity.h"
+	"Projectile.h"
+	"Enemy.h"
+
+1747232955 e:\ltnc\game\lib\bigenemy.h
+	<vector>
+	"RenderWindow.h"
+	"Entity.h"
+	"Projectile.h"
+	"Missile.h"
+	"Enemy.h"
+	"Texture.h"
+	"Timer.h"
+
+1747232955 e:\ltnc\game\lib\uimanager.h
+	"Texture.h"
+	"Timer.h"
+	"AudioManager.h"
+
+1747232955 e:\ltnc\game\lib\audiomanager.h
+	<SDL_mixer.h>
+
+1747232955 e:\ltnc\game\lib\collision.h
+	<SDL.h>
+	<SDL_image.h>
+
