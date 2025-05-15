@@ -19,10 +19,10 @@ WarShip là game bắn thuyền 2d lập trình bằng C++ và sử dụng thư 
 - Người chơi hệ thống đạn đa dạng
 - Tiêu diệt ngẫu nhiên kẻ địch rơi vật phẩm hồi máu
 ## Cách chơi
-- Di chuyển: W A S D
-- Bắn bình thường: Space
-- Tên lửa theo dõi: Click Chuột
-- Tên lửa xung quanh: E
+- W A S D: Di chuyển
+- Space: Bắn
+- Click Chuột: Phóng tên lửa
+- E : Phóng lửa xung quanh
 
 ## Nguồn
 Ảnh: - www.gamedevmarket.net
